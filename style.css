@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 body {
+  font-size: 18px;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -70,6 +71,9 @@ p {
   text-align: left;
   width: fit-content;
 }
+.green{
+  color: rgb(25, 255, 178);
+}
 .links a:hover {
   text-decoration: underline;
   color: yellow;
@@ -80,12 +84,19 @@ p {
   padding: 5px 20px;
 }
 .goals h2 {
-  font-size: 1.5em;
+  text-align: center;
+}
+.goals p{
   text-align: center;
 }
 .goals ul {
-  list-style-type: disc;
+  list-style-type: none;
   padding-left: 20px;
+}
+.goals ul li{
+  background-color: rgba(49, 66, 111, 0.671);
+  padding: 20px 10px;
+  margin-bottom: 10px;
 }
 
 
